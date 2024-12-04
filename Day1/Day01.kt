@@ -38,9 +38,9 @@ fun main(){
 
      */
 
-    //Part 2 Solution
+    //Part 2 Solution 23609874
     for(i in sortedLeft.indices){
-        finalCount += frequencyCounter(sortedLeft[i],sortedRight) * sortedLeft[i]
+        finalCount += frequencyCounter(sortedLeft[i],sortedRight)
     }
     println(finalCount)
 }
@@ -51,5 +51,5 @@ fun frequencyCounter(num: Int, arr: List<Int>) : Int{
             count++
         }
     }
-    return count
+    return count * num
 }
