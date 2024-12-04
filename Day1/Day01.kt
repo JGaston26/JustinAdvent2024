@@ -31,6 +31,7 @@ fun main(){
     for(i in sortedLeft.indices){
         finalCount += abs(sortedLeft[i] - sortedRight[i])
     }
+
     println(sortedRight)
     println(sortedLeft)
     println(finalCount)
