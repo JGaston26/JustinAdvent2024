@@ -1,3 +1,5 @@
+package Day3
+
 import java.io.File
 import java.io.InputStream
 
@@ -8,8 +10,9 @@ fun main(){
     inputFileStream.bufferedReader().forEachLine {
         fileData.add(it)
     }
-    println(mulFinder(fileData))
+    //println(mulFinder(fileData))
 }
+/*
 fun mulFinder(myList : MutableList<String>): MutableList<String> {
     val mulList = mutableListOf<String>()
     for(i in myList.indices){
@@ -21,3 +24,5 @@ fun mulFinder(myList : MutableList<String>): MutableList<String> {
     }
     return mulList
 }
+
+ */

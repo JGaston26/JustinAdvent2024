@@ -15,14 +15,14 @@ fun main(){
 
 }
 
-fun doFloorMath(myList : MutableList<String>) : Int{
+fun doFloorMath(myList : MutableList<String>) {
     val splitList: List<List<String>> = myList.map { it.split( " ")}
     var count = 0;
     for(i in splitList.indices){
         for(j in splitList[i].indices){
             if(splitList[i][j].toInt() < splitList[i][j+1].toInt()){
 
-            }else
+            }
         }
     }
 }
